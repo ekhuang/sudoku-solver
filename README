@@ -1,0 +1,9 @@
+There shouldn't be any problems setting it up; it's practically 
+spaghetti code inside the singular C file. just gcc and run. Should be 
+obvious from the source code.
+
+But in case it isn't:
+sudoku problems are stored in files formatted thusly:
+
+1..3.4.5..etc, where the dots are unknown values. Go from top left to 
+bottom right.
